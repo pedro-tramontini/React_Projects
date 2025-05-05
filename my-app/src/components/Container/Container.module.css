@@ -1,6 +1,5 @@
 .container {
     width: 100%;
-    height: 450px; /* 100% é o certo */
     background: #191919;
     color: #fff;
     text-align: center;    
