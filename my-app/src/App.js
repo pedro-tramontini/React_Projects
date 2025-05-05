@@ -8,7 +8,7 @@ import videos from "./json/videos.json"
 
 const categories = [
   "Geografia",
-  "Como fazer  e usar",
+  "Como fazer e usar",
   "Astronomia e Geografia",
   "Climatologia, Meteorologia, Vegetação",
   "Geologia e Hidrografia"
@@ -27,19 +27,19 @@ function App() {
     <Container>
 
 {/*O filter category retorna a lista json igual ao titulo de categories, e usando um mapeamento do json, coloca os elementos dentro dos carts */}
-    <Category category="Geografia">
+    <Category category={categories[0]}>
       {filterCategory(0).map((video) => <Card id={video.id} key={video.id}/>)}
     </Category>
-    <Category category="Como fazer  e usar">
+    <Category category={categories[1]}>
       {filterCategory(1).map((video) => <Card id={video.id} key={video.id}/>)}
     </Category>
-    <Category category="Astronomia e Geografia">
+    <Category category={categories[2]}>
       {filterCategory(2).map((video) => <Card id={video.id} key={video.id}/>)}
     </Category>
-    <Category category="Climatologia, Meteorologia, Vegetação">
+    <Category category={categories[3]}>
       {filterCategory(3).map((video) => <Card id={video.id} key={video.id}/>)}
     </Category>
-    <Category category="Geologia e Hidrografia">
+    <Category category={categories[4]}>
       {filterCategory(4).map((video) => <Card id={video.id} key={video.id}/>)}
     </Category>
 
