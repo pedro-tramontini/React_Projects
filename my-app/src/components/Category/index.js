@@ -19,7 +19,7 @@ function Category( { category, children }) {
       <h2>{category}</h2>
       <div>
         { children }
-      </div>
+      </div>  
     </section>
     );
 }

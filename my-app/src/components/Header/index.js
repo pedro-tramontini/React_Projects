@@ -8,8 +8,9 @@ function Header() {
             <span>MaiaFlix</span>
             </Link>
             <nav>
-            <Link to="/"> <a href="#">Home</a></Link>
-            <Link to="/watch"><a href="#">Assistir</a></Link>
+            <Link to="/">Home</Link>
+            <Link to="/watch">Assistir</Link>
+            <Link to="/search">Pesquisar</Link>
             </nav>
         </header>
     )
