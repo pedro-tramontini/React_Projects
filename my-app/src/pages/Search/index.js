@@ -4,15 +4,19 @@ import Header from "../../components/Header";
 import VideoList from "../../components/VideoList";
 import styles from "./Search.module.css"
 import videos from "../../json/videos.json"
+import SearchVideoList from "../../components/SearchVideoList";
 
 function Search() {
     return(
         <>
         <Header />
         <Container>
+
         <section className={styles.search}>
-            <VideoList videos={videos}/>
+            <h2>Pesquisar</h2>
+            <SearchVideoList videos={videos}/>
         </section>
+
         </Container>
         <Footer />
         </>
