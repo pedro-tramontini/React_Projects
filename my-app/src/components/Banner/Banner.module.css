@@ -1,5 +1,5 @@
 .banner {
-    width: 100%;
+    min-width: 100vh;
     height: 347px;
     /* background-image: url("/public/Images/banner-home.png");*/    
     background-repeat: no-repeat;
