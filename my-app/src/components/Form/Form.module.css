@@ -34,6 +34,38 @@
     font-size: 1.125rem;
 }
 
+.container button {
+    border: 1px solid #691010;
+    height: 5rem;
+    width: 10rem;
+    border-radius: 15px;
+    color: white;
+    background: #b71c1c;
+    font-size: large;
+    font-weight: 700;
+}
+
 .container button:hover {
     background-color: #f44336;
+}
+
+.erro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
+}
+
+.erro span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #691010;
+    height: 4rem;
+    width: 15rem;
+    border-radius: 10px;
+    color: white;
+    background: red;
+    font-size: large;
+    font-weight: 700;
 }
