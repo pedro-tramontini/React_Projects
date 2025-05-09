@@ -12,7 +12,7 @@ function Header() {
             {/* <Link to="/watch">Assistir</Link> */}
             <Link to="/search">Pesquisar</Link>
             <Link to="/favorites">Favoritos</Link>
-            <Link to="/cadastre">Cadastre</Link>
+            {/* <Link to="/cadastre">Cadastre</Link> */}
             </nav>
         </header>
     )
